@@ -39,12 +39,18 @@ const menu = {
     { nombre: "Gaseosa 1L", precio: 10000, img: "img/gaseosa_1l.jpg" },
     { nombre: "Agua", precio: 5000, img: "img/agua.jpg" },
     { nombre: "Michelob", precio: 6000, img: "img/michelob.jpg" },
-    { nombre: "Munich Ultra", precio: 6000, img: "img/munich.jpg" },
+    { nombre: "Munich Ultra", precio: 5000, img: "img/munich.jpg" },
     { nombre: "Bud 66", precio: 8000, img: "img/bud_66.jpg" },
-    { nombre: "Coronita", precio: 8000, img: "img/coronita.jpg" },
-    { nombre: "Heineken 3/4", precio: 17000, img: "img/heineken_3_4.jpg" }
+    { nombre: "Coronita", precio: 9000, img: "img/coronita.jpg" },
+    { nombre: "Heineken 3/4", precio: 18000, img: "img/heineken_3_4.jpg" }
+  ],
+  "🥤Combo Bebidas": [
+    { nombre: "Dos Heineken", precio: 35000, img: "img/heineken.jpg" },
+    { nombre: "Dos Bud 66", precio: 15000, img: "img/bud_66.jpg" },
+    { nombre: "3 Coronitas", precio: 25000, img: "img/coronita.jpg" }
   ]
 };
+
 
 const container = document.getElementById("menu-container");
 
@@ -80,4 +86,5 @@ for (const categoria in menu) {
   section.appendChild(itemsContainer);
   container.appendChild(section);
 }
+
 

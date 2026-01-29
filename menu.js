@@ -47,7 +47,7 @@ const menu = {
   "🥤Combo Bebidas": [
     { nombre: "Dos Heineken", precio: 35000, img: "img/heineken.jpg" },
     { nombre: "Dos Bud 66", precio: 15000, img: "img/bud_66.jpg" },
-    { nombre: "3 Coronitas", precio: 25000, img: "img/coronita.jpg" }
+    { nombre: "Tres Coronitas", precio: 25000, img: "img/coronita.jpg" }
   ]
 };
 
@@ -86,5 +86,6 @@ for (const categoria in menu) {
   section.appendChild(itemsContainer);
   container.appendChild(section);
 }
+
 
 

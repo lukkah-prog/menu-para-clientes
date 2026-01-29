@@ -13,6 +13,7 @@ const menu = {
   ],
   "🍕 Pizzas": [
     { nombre: "Pizza muzzarella", precio: 20000, img: "img/pizza_muzzarella.jpg" },
+    { nombre: "Pizzeta", precio: 10000, img: "img/pizzeta.jpg" },
     { nombre: "Pizza choclo", precio: 25000, img: "img/pizza_choclo.jpg" },
     { nombre: "Pizza pollo katupiry", precio: 30000, img: "img/pizza_pollo_katupiry.jpg" },
     { nombre: "Pizza jamón y queso", precio: 30000, img: "img/pizza_jamon_queso.jpg" },
@@ -40,6 +41,7 @@ const menu = {
     { nombre: "Michelob", precio: 6000, img: "img/michelob.jpg" },
     { nombre: "Munich Ultra", precio: 6000, img: "img/munich.jpg" },
     { nombre: "Bud 66", precio: 8000, img: "img/bud_66.jpg" },
+    { nombre: "Coronita", precio: 8000, img: "img/coronita.jpg" },
     { nombre: "Heineken 3/4", precio: 17000, img: "img/heineken_3_4.jpg" }
   ]
 };
@@ -78,3 +80,4 @@ for (const categoria in menu) {
   section.appendChild(itemsContainer);
   container.appendChild(section);
 }
+

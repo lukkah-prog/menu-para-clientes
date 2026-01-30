@@ -42,12 +42,15 @@ const menu = {
     { nombre: "Munich Ultra", precio: 5000, img: "img/munich.jpg" },
     { nombre: "Bud 66", precio: 8000, img: "img/bud_66.jpg" },
     { nombre: "Coronita", precio: 9000, img: "img/coronita.jpg" },
+    { nombre: "Ouro Fino", precio: 5000, img: "img/ourofino.jpg" },
     { nombre: "Heineken 3/4", precio: 18000, img: "img/heineken_3_4.jpg" }
   ],
   "🥤Combo Bebidas": [
-    { nombre: "Dos Heineken", precio: 35000, img: "img/heineken_3_4.jpg" },
+    { nombre: "Dos Heineken", precio: 35000, img: "img/heineken.jpg" },
     { nombre: "Dos Bud 66", precio: 15000, img: "img/bud_66.jpg" },
-    { nombre: "Tres Coronitas", precio: 25000, img: "img/coronita.jpg" }
+    { nombre: "Tres Coronitas", precio: 25000, img: "img/coronita.jpg" },
+    { nombre: "Seis Ouro Fino", precio: 25000, img: "img/ourofino.jpg" }
+    
   ]
 };
 
@@ -86,6 +89,7 @@ for (const categoria in menu) {
   section.appendChild(itemsContainer);
   container.appendChild(section);
 }
+
 
 
 

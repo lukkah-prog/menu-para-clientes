@@ -52,7 +52,7 @@ const menu = {
     { nombre: "Tres Coronitas Zero",precio: 35000,img: "img/coronitazero.jpg"},
     { nombre: "Seis Munich Ultra", precio: 28000,img: "img/munich.jpg"},
     { nombre: "Seis Michelob", precio: 35000,img: "img/michelob.jpg"},
-    { nombre: "Seis Ouro Fino", precio: 25000, img: "img/ourofino.jpg" },
+    { nombre: "Seis Ouro Fino", precio: 25000, img: "img/ourofino.jpg" }
     
     
   ]
@@ -93,6 +93,7 @@ for (const categoria in menu) {
   section.appendChild(itemsContainer);
   container.appendChild(section);
 }
+
 
 
 
